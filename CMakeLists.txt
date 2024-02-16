@@ -5,7 +5,7 @@ project(
     LANGUAGES CXX C # programming languages used by the project
 )
 
-add_executable(App main.cpp)
+add_executable(App main.cpp webgpu-utils.cpp webgpu-utils.h)
 target_link_libraries(App PRIVATE glfw webgpu glfw3webgpu)
 
 set_target_properties(App PROPERTIES

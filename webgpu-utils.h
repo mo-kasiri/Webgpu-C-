@@ -59,7 +59,7 @@ WGPUDevice requestDevice(WGPUAdapter adapter, WGPUDeviceDescriptor const * descr
 void inspectAdapter(WGPUAdapter adapter);
 
 /**
- * Display information about a device
+ * Display information about a device --- device = GPU
  */
 void inspectDevice(WGPUDevice device);
 

@@ -85,7 +85,8 @@ WGPUDevice requestDevice(WGPUAdapter adapter, WGPUDeviceDescriptor const * descr
     };
     UserData userData;
 
-    auto onDeviceRequestEnded = [](WGPURequestDeviceStatus status, WGPUDevice device, char const * message, void * pUserData) {
+    auto onDeviceRequestEnded =
+            [](WGPURequestDeviceStatus status, WGPUDevice device, char const * message, void * pUserData) {
         UserData& userData = *reinterpret_cast<UserData*>(pUserData);
         if (status == WGPURequestDeviceStatus_Success) {
             userData.device = device;

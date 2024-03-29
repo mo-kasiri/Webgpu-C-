@@ -4,7 +4,7 @@
 
 ## Setup
 Download and install [Cmake](https://cmake.org/download/) <br>
-Run this followed commands:
+Run followed commands:
 
 ``` bash
 # Run cmake

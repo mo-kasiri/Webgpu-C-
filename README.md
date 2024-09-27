@@ -2,7 +2,7 @@
 
 # WebGPU C++
 
-## Setup
+## Setup (for windows)
 Download and install [Cmake](https://cmake.org/download/) <br>
 Run followed commands:
 
